@@ -1,3 +1,4 @@
+
 #!/bin/sh
 clear
 white="\033[1;37m"
@@ -19,9 +20,30 @@ sleep 2
 echo "beli di youtube Mamank marcel"
 sleep 1
 echo "$green karna, disini saya menjual diamond dengan harga rendah"
-echo "agar konsumen percaya bahwa mamank marcel menjual diamond asli"
-sleep 10
-echo "yakin untuk beli diamond MLBB? "
-echo "chat di WA 085877666990"
+echo "agar konsumen percaya bahwa mamank marcel menjuql diamond ori"
+sleep 2
+echo "menu diamond"
+echo " 12dm      85dm"
+echo " 5rb       30rb"
+echo 
+echo " 28dm     170dm"
+echo " 10rb     60rb "
+echo
+echo " 59dm"
+echo " 20 rb"
+echo "yakin untul beli? "
+echo "y/n"
+read quest
+
+if [ $quest = "y" ] 
+then
+echo "karna anda yakin untuk beli"
+echo "chat WA saya 085877666990"
 sleep 10
 exit
+elif [ $quest = "n" ] 
+then
+echo "terimakasih sudah datang kesini"
+sleep 3
+exit
+fi
